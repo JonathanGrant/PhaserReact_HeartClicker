@@ -28,9 +28,9 @@ const HeartGame = ({ setScore }) => {
     }
 
     function create() {
-this.input.setDefaultCursor('url(/camera.png), url(/camera.png)');
-this.input.cursor = 'url(/camera.png), url(/camera.png)'
-this.input.manager.canvas.style.cursor = 'url(/camera.png), url(/camera.png)';
+this.input.setDefaultCursor('url(/camera.png), pointer');
+this.input.cursor = 'url(/camera.png), pointer'
+this.input.manager.canvas.style.cursor = 'url(/camera.png), pointer';
 
   const background = this.add.image(400, 300, 'background'); // Center the background image on the screen (assuming 800x600 game size)
      
