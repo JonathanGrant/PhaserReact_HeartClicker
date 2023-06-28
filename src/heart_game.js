@@ -74,7 +74,7 @@ this.input.manager.canvas.style.cursor = 'url(/camera.png), pointer';
     }
 
     return () => game.destroy(true);
-  }, []);
+  }, [setScore]);
 
   return <div ref={gameRef}
 />;
